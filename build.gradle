@@ -43,7 +43,9 @@ dependencies {
         exclude(group: 'org.openjfx')
     }
     implementation('org.kordamp.ikonli:ikonli-javafx:12.3.1')
+    implementation('org.kordamp.ikonli:ikonli-materialdesign-pack:12.3.1')
     implementation('org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0')
+    implementation('org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.3.1')
     implementation('eu.hansolo:tilesfx:17.1.17') {
         exclude(group: 'org.openjfx')
     }

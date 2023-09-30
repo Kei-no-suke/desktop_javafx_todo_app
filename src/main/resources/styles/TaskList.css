@@ -1,0 +1,8 @@
+.list-view{
+    -fx-selection-bar: #FFFFFF;
+    -fx-selection-bar-non-focused: #FFFFFF;
+}
+
+Text {
+    -fx-font-size: 1.5em;
+}

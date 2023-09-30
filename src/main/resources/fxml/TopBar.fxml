@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+
+<AnchorPane prefHeight="60.0" prefWidth="900.0" styleClass="top_bar_container" stylesheets="@../styles/TopBar.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.keinosuke.todoapp.controllers.TopBarController">
+   <children>
+       <AnchorPane prefHeight="60.0" prefWidth="200.0" styleClass="top_display_box">
+           <Text layoutX="60.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Todo App" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="14.05078125" />
+           <FontIcon iconLiteral="bi-ui-checks" iconSize="30" layoutX="14.0" layoutY="44.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+       </AnchorPane>
+       <HBox maxWidth="1000.0" minWidth="390.0" prefHeight="60.0" prefWidth="390.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="0.0">
+           <Button fx:id="task_list_btn" mnemonicParsing="false" text="Task List">
+               <graphic>
+                   <FontIcon iconLiteral="bi-list-task" iconSize="20" />
+               </graphic>
+           </Button>
+           <Button fx:id="archive_btn" mnemonicParsing="false" text="Archive">
+               <graphic>
+                   <FontIcon iconLiteral="bi-archive" iconSize="20" />
+               </graphic>
+           </Button>
+           <Button fx:id="completed_btn" mnemonicParsing="false" text="Completed">
+               <graphic>
+                   <FontIcon iconLiteral="bi-check2-square" iconSize="20" />
+               </graphic>
+           </Button>
+       </HBox>
+        <HBox prefHeight="60.0" prefWidth="120.0" AnchorPane.rightAnchor="0.0">
+            <Button fx:id="add_task_btn" mnemonicParsing="false" text="Add Task">
+                <graphic>
+                    <FontIcon iconLiteral="bi-clipboard-plus" iconSize="20" />
+                </graphic>
+            </Button>
+        </HBox>
+   </children>
+</AnchorPane>

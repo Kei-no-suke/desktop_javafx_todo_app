@@ -18,4 +18,7 @@ module com.keinosuke.todoapp {
     exports com.keinosuke.todoapp.controllers;
     exports com.keinosuke.todoapp.models;
     exports com.keinosuke.todoapp.views;
+    exports com.keinosuke.todoapp.controllers.archiveTaskList;
+    exports com.keinosuke.todoapp.controllers.completedList;
+    exports com.keinosuke.todoapp.controllers.taskList;
 }

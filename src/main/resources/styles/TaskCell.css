@@ -1,0 +1,48 @@
+.checkbox .box{
+    -fx-background-color: white;
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+    -fx-border-color: gray;
+    -fx-border-radius: 5px;
+}
+
+.checkbox:selected .mark {
+    -fx-background-color: white;
+}
+
+.checkbox:selected .box {
+    -fx-background-color: #28a3f4;
+    -fx-border-color: #28a3f4;
+    -fx-background-radius: 5px;
+}
+
+.checkbox .text{
+    -fx-text-fill: gray;
+}
+
+.task_cell_container {
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+
+.task_cell_container HBox {
+    -fx-alignment: center_left;
+}
+
+.task_cell_container Label {
+    -fx-font-size: 1.5em;
+}
+
+.task_cell_container TextField {
+    -fx-pref-width: 400;
+}
+
+.task_deadline_container{
+    -fx-alignment: center_left;
+    -fx-padding: 5;
+}
+
+.task_deadline_container Label {
+    -fx-font-size: 1.1em;
+    -fx-font-family: Calibri;
+    -fx-text-fill: #555555;
+}

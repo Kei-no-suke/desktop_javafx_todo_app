@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane fx:id="root" prefHeight="50.0" prefWidth="840.0" styleClass="task_cell_container"
+            stylesheets="@../../styles/TaskCell.css" xmlns="http://javafx.com/javafx/20.0.1"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <Button fx:id="delete_btn" layoutX="760.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0"
+            AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="12.0">
+        <graphic>
+          <FontIcon iconLiteral="bi-trash" iconSize="20"/>
+        </graphic>
+        <tooltip>
+          <Tooltip text="Delete"/>
+        </tooltip>
+    </Button>
+    <Line endY="30.0" layoutX="749.0" AnchorPane.rightAnchor="110.0" AnchorPane.topAnchor="10.0"/>
+    <HBox layoutX="19.0" maxWidth="1000.0" minWidth="700.0" prefHeight="50.0"
+          AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="0.0">
+        <Label fx:id="task_name_lbl" text="Task Name"/>
+    </HBox>
+    <Button fx:id="unarchive_btn" layoutX="758.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0"
+            prefWidth="30.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="12.0">
+        <graphic>
+          <FontIcon iconLiteral="bi-box-arrow-up-left" iconSize="20"/>
+        </graphic>
+        <tooltip>
+          <Tooltip text="Unarchive"/>
+        </tooltip>
+    </Button>
+</AnchorPane>

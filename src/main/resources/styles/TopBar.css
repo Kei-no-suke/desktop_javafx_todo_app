@@ -1,0 +1,38 @@
+.top_bar_container {
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 0 0 10 10;
+}
+
+.top_bar_container HBox {
+    -fx-alignment: center_left;
+    -fx-spacing: 15;
+}
+
+.top_display_box {
+    -fx-background-color: linear-gradient(to right, #003775, #0053b3);
+    -fx-background-radius: 0 0 0 10;
+    -fx-text-fill: #FFFFFF;
+}
+
+.top_display_box Text {
+    -fx-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.8em;
+}
+
+.top_display_box FontIcon {
+    -fx-fill: #FFFFFF;
+}
+
+Button {
+    -fx-border-width: 0;
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 15;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.3em;
+}
+
+Button:hover {
+    -fx-cursor: hand;
+}
+

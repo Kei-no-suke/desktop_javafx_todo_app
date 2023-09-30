@@ -1,0 +1,28 @@
+.progress_edit_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.progress_edit_top_bar {
+    -fx-alignment: center;
+}
+
+.progress_edit_top_bar Text {
+    -fx-font-size: 1.7em;
+}
+
+.progress_edit_form_container {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+.progress_edit_form_container Slider {
+    -fx-pref-width: 200;
+}
+
+.progress_edit_form_container Text {
+    -fx-font-size: 1.6em;
+}
+
+.progress_edit_form_container HBox {
+    -fx-alignment: center;
+}

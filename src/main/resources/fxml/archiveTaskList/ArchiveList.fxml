@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="900.0" stylesheets="@../../styles/TaskList.css"
+            xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.keinosuke.todoapp.controllers.archiveTaskList.ArchiveListController">
+   <Text layoutX="20.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Archive List"
+         AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0"/>
+   <ListView fx:id="task_list_view" layoutX="14.0" layoutY="39.0" prefHeight="430.0" prefWidth="860.0"
+             AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0"/>
+</AnchorPane>

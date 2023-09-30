@@ -1,0 +1,40 @@
+.add_task_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.add_task_top_bar {
+    -fx-alignment: center;
+}
+
+.add_task_top_bar Text {
+    -fx-font-size: 1.7em;
+}
+
+.add_task_form_container{
+    -fx-padding: 20;
+    -fx-spacing: 15;
+}
+
+.add_task_form_container Text {
+    -fx-font-size: 1.4em;
+}
+
+.add_task_form_container TextField {
+    -fx-pref-height: 25;
+    -fx-pref-width: 200;
+}
+
+.add_task_form_container DatePicker {
+    -fx-pref-height: 25;
+    -fx-pref-width: 200;
+}
+
+.add_task_form_container Slider {
+    -fx-pref-width: 200;
+}
+
+.add_task_form_container Button {
+    -fx-pref-height: 25;
+    -fx-pref-width: 50;
+}
+

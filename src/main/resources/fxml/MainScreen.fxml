@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.BorderPane?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0"
-            prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1"
-            fx:controller="com.keinosuke.todoapp.controllers.MainScreenController">
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="450.0">
-        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Screen"
-              AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0"/>
-    </AnchorPane>
-</ScrollPane>
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:id="parent_pane" fx:controller="com.keinosuke.todoapp.controllers.MainScreenController">
+    <top>
+        <fx:include source="TopBar.fxml" />
+    </top>
+    <center>
+        <fx:include source="taskList/TaskList.fxml" />
+    </center>
+</BorderPane>
